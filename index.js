@@ -92,6 +92,30 @@ const projectData = {
                 </div>
             </div>
         `
+    },
+    5: {
+        title: "Project 5: Omnichannel SaaS Migration",
+        concept: "Leading a transition from fragmented email support to a unified Zendesk/Intercom ecosystem.",
+        content: `
+            <div class="faq-list">
+                <p style="font-size: 0.9rem; margin-bottom: 10px; color: var(--accent-gold);">Scope: 25,000+ monthly tickets handled across 3 time zones.</p>
+                <div class="faq-item"><strong>Migration Strategy:</strong> Consolidation of legacy email, Twitter (X), and Live Chat into a single Zendesk dashboard with automated ticket routing based on sentiment analysis.</div>
+                <div class="faq-item"><strong>Automation Implementation:</strong> Built 50+ macros and triggers to automate 30% of standard billing inquiries, reducing First Response Time (FRT) from 12h to 45 mins.</div>
+                <div class="faq-item"><strong>Team Training:</strong> Authored the internal SOP and conducted workshops for 15+ remote agents on new workflow efficiencies.</div>
+            </div>
+        `
+    },
+    6: {
+        title: "Project 6: Crisis Management (E-commerce)",
+        concept: "Managing high-volume support flow during a large-scale system outage/shipping disaster.",
+        content: `
+            <div class="faq-list">
+                <p style="font-size: 0.9rem; margin-bottom: 10px; color: var(--accent-gold);">Scenario: Black Friday logistics failure affecting 5,000+ orders.</p>
+                <div class="faq-item"><strong>Emergency Communication:</strong> Rapid deployment of a 'Status Page' and proactive email blast to affected customers *before* they contacted support.</div>
+                <div class="faq-item"><strong>Backlog Liquidation:</strong> Implemented a 'Triage Desk' to separate urgent shipping errors from general inquiries, clearing a 2,000-ticket backlog in 72 hours.</div>
+                <div class="faq-item"><strong>Recovery & Retention:</strong> Designed a "Loyalty Recovery" package (discount + apology) that resulted in an 85% retention rate despite the service failure.</div>
+            </div>
+        `
     }
 };
 
