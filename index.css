@@ -47,9 +47,24 @@ body {
 }
 
 /* Global Styles */
+/* Sections */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 150px;
+}
+
 section {
     padding: 100px 10%;
     min-height: 80vh;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 20px;
+    }
 }
 
 h1,
@@ -136,4 +151,74 @@ div::-webkit-scrollbar-track {
 div::-webkit-scrollbar-thumb {
     background: var(--accent-crimson);
     border-radius: 10px;
+}
+
+/* Responsiveness Fixes */
+@media (max-width: 992px) {
+    #hero {
+        flex-direction: column;
+        padding-top: 120px;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-content {
+        order: 2;
+    }
+
+    .hero-image {
+        order: 1;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-content p {
+        margin: 0 auto 30px;
+    }
+
+    .hero-content div {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .glass-header {
+        padding: 15px 20px !important;
+    }
+
+    nav ul {
+        gap: 15px;
+        font-size: 0.85rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-image {
+        max-width: 250px;
+    }
+
+    #project-modal {
+        width: 95% !important;
+        padding: 25px !important;
+    }
+
+    #project-modal h2 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+    }
+
+    .faq-item {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
 }
