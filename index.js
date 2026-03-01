@@ -15,34 +15,31 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 const projectData = {
     1: {
-        title: "Project 1: The 'Knowledge Base' (FAQ) Guide",
-        concept: "Demonstrate customer-centric thinking and information organization.",
+        title: "Project 1: AI-Optimized Knowledge Base Strategy",
+        concept: "Structuring self-service content for maximum AI-deflection and user clarity.",
         content: `
             <div class="faq-list">
-                <div class="faq-item"><strong>1. I forgot my password. How do I reset it?</strong><br>Click 'Forgot Password' on the login screen, enter your email, and follow the link sent to your inbox.</div>
-                <div class="faq-item"><strong>2. My transaction is pending. What should I do?</strong><br>Transactions can take 30-60 mins. If pending after 2 hours, contact support with your [Order ID].</div>
-                <div class="faq-item"><strong>3. How do I update my KYC?</strong><br>Go to Settings > Profile > Verification and upload a valid government-issued ID.</div>
-                <div class="faq-item"><strong>4. Is my data secure?</strong><br>Yes, we use bank-grade 256-bit encryption and multi-factor authentication.</div>
-                <div class="faq-item"><strong>5. How do I change my linked bank account?</strong><br>Settings > Payments > Add New Account. Verification takes 1-2 business days.</div>
-                <div class="faq-item"><strong>6. What are the transfer limits?</strong><br>Daily: $5,000 | Monthly: $50,000. Upgrade KYC for higher limits.</div>
-                <div class="faq-item"><strong>7. Can I cancel a successful transaction?</strong><br>Successful blockchain/wire transfers cannot be reversed. Please verify details before sending.</div>
-                <div class="faq-item"><strong>8. Why was my account flagged?</strong><br>Flags occur for unusual login locations or high-value unverified transactions.</div>
-                <div class="faq-item"><strong>9. How do I contact a human agent?</strong><br>Click 'Support' > 'Live Chat' or email support@fintech.com.</div>
-                <div class="faq-item"><strong>10. Does the app support international transfers?</strong><br>Yes, to over 20 countries. See the 'Global' tab for rates.</div>
+                <p style="font-size: 0.9rem; margin-bottom: 10px; color: var(--accent-gold);">Strategic Goal: Reduce 'Password Reset' and 'KYC' tickets by 40% through AI-ready documentation.</p>
+                <div class="faq-item"><strong>1. AI-Deflection Strategy:</strong> Documentation formatted with structured headers (H1, H2) to allow AI Bots (Intercom Fin/Zendesk Answer Bot) to crawl and resolve queries instantly without human intervention.</div>
+                <div class="faq-item"><strong>2. KYC Verification (Tier 1 Support):</strong> Step-by-step visual guide for international users, reducing 'ID Rejection' rates by providing clear lighting/clarity requirements.</div>
+                <div class="faq-item"><strong>3. Security Hub:</strong> Dedicated section on 'MFA Setup' and 'Session Management' to proactively educate users on account safety.</div>
             </div>
         `
     },
     2: {
-        title: "Project 2: Support Ticket Response Library",
-        concept: "Professional empathy and strategic retention communication.",
+        title: "Project 2: The 'STAR' Case Study Library",
+        concept: "Deep-dive problem resolution using the STAR method for international clients.",
         content: `
             <div class="faq-list">
-                <div class="faq-item"><strong>Scenario 1: The Frustrated Customer (Retention-Focused)</strong><br>
-                "Hello [Customer Name], I hear your frustration regarding the delay. I've personally prioritized [Order Number] for immediate dispatch. To show we value your loyalty, I've upgraded your account to 'Priority Status' for 3 months."</div>
-                <div class="faq-item"><strong>Scenario 2: The Technical AI-Assisted Solution</strong><br>
-                "Hi [Customer Name]! Our AI flagged that you might be missing the [X] driver. I've verified this manually; please install the update here: [Link]. Is there anything else the AI missed today?"</div>
-                <div class="faq-item"><strong>Scenario 3: The Refund Request (GDPR Compliant)</strong><br>
-                "Dear [Customer Name], I've initiated your refund for [Order Number]. Per GDPR guidelines, your payment data remains encrypted and will be processed back to your original method within 5 days."</div>
+                <div class="faq-item"><strong>Case Study: Technical Churn Prevention</strong><br>
+                <strong>S:</strong> High-value customer threatened to churn due to recurring API errors.<br>
+                <strong>T:</strong> Resolve the technical blocker while maintaining the relationship.<br>
+                <strong>A:</strong> Coordinated with Dev teams, explained technical constraints in simple terms, and provided a custom workaround.<br>
+                <strong>R:</strong> Customer retained; NPS score of 10/10; account upgraded.</div>
+                <div class="faq-item"><strong>Scenario: Retention-Focused Response</strong><br>
+                "Hello [Customer Name], I've personally prioritized [Order Number]. To show we value your loyalty, I've upgraded your account to 'Priority Status' for 3 months."</div>
+                <div class="faq-item"><strong>Scenario: GDPR/EU Compliance</strong><br>
+                "Dear [Customer Name], your data deletion request (Right to be Forgotten) is being processed. Per GDPR, we will confirm full erasure within 30 days."</div>
             </div>
         `
     },
@@ -73,25 +70,25 @@ const projectData = {
         `
     },
     4: {
-        title: "Project 4: Tool & AI Mastery Showcase",
-        concept: "Proficiency in modern CRM, AI-support bots, and remote workflows.",
+        title: "Project 4: AI Support & Ethical Operations",
+        concept: "Mastery of AI-Human collaboration and EU-standard ethical support.",
         content: `
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
                 <div class="glass" style="padding: 15px;">
-                    <h4 style="color: var(--accent-gold);">Zendesk / Intercom</h4>
-                    <p style="font-size: 0.8rem;">Expertise in Fin (Intercom AI), ticket triggers, and complex SLA logic.</p>
+                    <h4 style="color: var(--accent-gold);">Human-in-the-Loop</h4>
+                    <p style="font-size: 0.8rem;">Expertise in AU AI Act compliance: always offering human escalation for AI queries.</p>
                 </div>
                 <div class="glass" style="padding: 15px;">
-                    <h4 style="color: var(--accent-gold);">AI Support Bots</h4>
-                    <p style="font-size: 0.8rem;">Training knowledge bases for AI accuracy and automated handovers.</p>
+                    <h4 style="color: var(--accent-gold);">AI Training (NLP)</h4>
+                    <p style="font-size: 0.8rem;">Optimizing chatbot intent recognition and tone of voice for global consistency.</p>
                 </div>
                 <div class="glass" style="padding: 15px;">
-                    <h4 style="color: var(--accent-gold);">GDPR & Security</h4>
-                    <p style="font-size: 0.8rem;">Handling PII with care and ensuring European data privacy compliance.</p>
+                    <h4 style="color: var(--accent-gold);">SOP Design</h4>
+                    <p style="font-size: 0.8rem;">Standardizing support workflows to reduce handle time and ensure quality.</p>
                 </div>
                 <div class="glass" style="padding: 15px;">
-                    <h4 style="color: var(--accent-gold);">Multilingual Support</h4>
-                    <p style="font-size: 0.8rem;">Leveraging translation tools and cultural empathy for European diverse clients.</p>
+                    <h4 style="color: var(--accent-gold);">Cross-Functional</h4>
+                    <p style="font-size: 0.8rem;">Bridging the gap between Customer Support, Product, and Engineering.</p>
                 </div>
             </div>
         `
