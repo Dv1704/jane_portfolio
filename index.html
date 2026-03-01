@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogundiran Janet Oluwatobi | Customer Support Specialist Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="glass-header" style="position: fixed; width: 100%; top: 0; z-index: 1000; padding: 20px 10%;">
+        <nav style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="logo" style="font-weight: 700; font-size: 1.5rem;">JANET <span class="accent-text">.O</span>
+            </div>
+            <ul style="display: flex; list-style: none; gap: 30px;">
+                <li><a href="#hero" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="#projects" style="color: white; text-decoration: none;">Projects</a></li>
+                <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero"
+            style="display: flex; align-items: center; justify-content: space-between; gap: 50px; padding-top: 150px;">
+            <div class="hero-content" style="flex: 1;">
+                <h2 class="reveal active" style="font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 10px;">
+                    Customer Support Specialist</h2>
+                <h1 class="reveal active" style="font-size: 4rem; line-height: 1.1; margin-bottom: 25px;">Ogundiran <br>
+                    <span class="accent-text">Janet Oluwatobi</span></h1>
+                <p class="reveal active"
+                    style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 40px; max-width: 500px;">
+                    Passionate about delivering exceptional customer experiences through empathy, technical expertise,
+                    and data-driven solutions. Remote specialist ready for international clients.
+                </p>
+                <div class="reveal active" style="display: flex; gap: 20px;">
+                    <a href="#contact" class="crimson-btn">Hire Me</a>
+                    <a href="#projects"
+                        style="color: white; display: flex; align-items: center; text-decoration: none; font-weight: 600;">View
+                        Portfolio →</a>
+                </div>
+            </div>
+            <div class="hero-image reveal active" style="flex: 0.8; position: relative;">
+                <div class="glass"
+                    style="padding: 15px; border-radius: 30px; overflow: hidden; transform: rotate(3deg);">
+                    <img src="assets/jane.jpeg" alt="Ogundiran Janet Oluwatobi"
+                        style="width: 100%; height: auto; border-radius: 20px; display: block;">
+                </div>
+                <div class="glass"
+                    style="position: absolute; bottom: -20px; left: -20px; padding: 20px; border-left: 5px solid var(--accent-gold);">
+                    <h3 style="margin: 0; font-size: 1rem;">Remote Expert</h3>
+                    <p style="margin: 0; font-size: 0.8rem; color: var(--text-secondary);">Available Globally</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section id="projects">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 60px;">Portfolio <span
+                    class="accent-text">Showcase</span></h2>
+
+            <div class="projects-container"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px;">
+                <!-- Project 1: Knowledge Base -->
+                <div class="glass reveal" style="padding: 40px;">
+                    <div class="icon" style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 20px;">📚</div>
+                    <h3>Project 1: Knowledge Base Guide</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 25px;">
+                        Demonstrating solution-oriented thinking through a structured FAQ for a Fintech application.
+                    </p>
+                    <button class="crimson-btn" onclick="openProject(1)">Preview Guide</button>
+                </div>
+
+                <!-- Project 2: Response Library -->
+                <div class="glass reveal" style="padding: 40px;">
+                    <div class="icon" style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 20px;">✉️</div>
+                    <h3>Project 2: Response Library</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 25px;">
+                        Empathetic and professional communication templates for complex customer scenarios.
+                    </p>
+                    <button class="crimson-btn" onclick="openProject(2)">View Library</button>
+                </div>
+
+                <!-- Project 3: Performance Tracker -->
+                <div class="glass reveal" style="padding: 40px;">
+                    <div class="icon" style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 20px;">📊</div>
+                    <h3>Project 3: Satisfaction Tracker</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 25px;">
+                        Data-driven performance report showing Average Response Time and Satisfaction Score metrics.
+                    </p>
+                    <button class="crimson-btn" onclick="openProject(3)">View Metrics</button>
+                </div>
+
+                <!-- Project 4: Tool Mastery -->
+                <div class="glass reveal" style="padding: 40px;">
+                    <div class="icon" style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 20px;">🛠️</div>
+                    <h3>Project 4: Tool Mastery</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 25px;">
+                        Proficiency showcase in industry-standard tools like Freshdesk, Zendesk, and Trello.
+                    </p>
+                    <button class="crimson-btn" onclick="openProject(4)">Watch Demo</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" style="text-align: center;">
+            <div class="glass reveal" style="max-width: 800px; margin: 0 auto; padding: 60px;">
+                <h2 style="font-size: 2.5rem;">Ready to <span class="accent-text">Collaborate?</span></h2>
+                <p style="margin-bottom: 40px; color: var(--text-secondary);">
+                    Let's work together to provide world-class support for your customers.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+                    <div>
+                        <p style="font-weight: 600;">Email</p>
+                        <a href="mailto:ogundiranjanet6@gmail.com"
+                            style="color: var(--accent-gold); text-decoration: none;">ogundiranjanet6@gmail.com</a>
+                    </div>
+                    <div>
+                        <p style="font-weight: 600;">Phone</p>
+                        <p style="color: var(--accent-gold);">+234 904 291 2777</p>
+                    </div>
+                    <div>
+                        <p style="font-weight: 600;">Location</p>
+                        <p style="color: var(--accent-gold);">Remote / Global</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 40px 10%; text-align: center; border-top: var(--glass-border);">
+        <p>&copy; 2026 Ogundiran Janet Oluwatobi. Created for International Excellence.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
