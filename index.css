@@ -57,13 +57,13 @@ body {
 }
 
 section {
-    padding: 100px 10%;
+    padding: 40px 10%;
     min-height: 80vh;
 }
 
 @media (max-width: 768px) {
     section {
-        padding: 60px 20px;
+        padding: 30px 10px;
     }
 }
 
